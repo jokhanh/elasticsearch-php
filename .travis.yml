@@ -31,6 +31,11 @@ matrix:
       env: ES_VERSION="5.0" TEST_BUILD_REF="origin/5.0"
     - php: 7.1
       env: ES_VERSION="5.5" TEST_BUILD_REF="origin/5.5"
+      
+      - php: 7.2
+      env: ES_VERSION="5.0" TEST_BUILD_REF="origin/5.0"
+      - php: 7.2
+      env: ES_VERSION="5.5" TEST_BUILD_REF="origin/5.5"
 
 env:
   global:
